@@ -1,0 +1,135 @@
+.topicos{
+    background: linear-gradient(97.54deg, #a0bdd1 35.49%, #0d5d96 165.37%);
+    text-align: center;
+    padding: 1em 0;
+    margin: 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 10px #132e3d;
+    
+}
+
+.titulo__topicos{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 1em;
+    background-color: #d5d8da;
+    border-radius: 15px;
+    padding: 0.5em;
+    margin: 0 1em 1em 1em;
+    
+    
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item{
+    margin: 1.2em 0.5em;
+}
+ 
+
+.topicos__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: var(--laranja);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.parte__final{
+    background-color: var(--branco);
+}
+
+.final__titulo{
+    
+    font-size: 18px;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    margin: 2em 0 2em 1em ;
+    padding-top: 2em ;
+    
+}
+
+.final__texto{
+    margin: 2em 0 2em 1em;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.final__pesquisa{
+    border-radius: 20px;
+    padding: .5em;
+    font-size: 16px;
+    color:#132e3d;
+    text-align: center;
+    align-items: center;
+    background-image: url("../img/CORREIO.png");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    margin: 0 0 1em 1em;
+    width: 80%;
+       
+
+}
+
+.hr{
+    background-color: white;
+}
+
+.final__pesquisa::placeholder{
+    margin: 0 0 0 1.5em;
+    color: black;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .topicos{
+    height: 332px;
+   
+}
+    
+.titulo__topicos{
+    font-size: 24px;
+}
+
+.topicos__link{
+    font-size: 26px;
+}
+
+.topicos__lista{
+    margin: 3em 2em;
+}
+
+hr{
+    background-color: white;
+}
+
+}
+
+@media screen and (min-width: 1400px){
+    .topicos{
+        padding: 3em 20vw 0 20vw;
+        
+    }
+
+    .topicos__link{
+        font-size: 24px;
+        padding: 0.5em;
+        margin: 1em 0;
+    }
+
+        
+}
+
+
+
+
+
